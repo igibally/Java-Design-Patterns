@@ -1,0 +1,14 @@
+builder pattern 
+creational design pattern 
+1- when you have a class provide a constructor taks alots of paramters it's considerd as bad parctice 
+2- class constructor requires  a lots of information
+3- which is help us to avoid
+-------------------------------------------------------------------------------------------------------------------
+we have a complex process to construct an object involving multiple steps,
+builder design pattern can help us
+2- in a builder pattern we remove a logic related to object construction from the client code & abstarct in seperate class 
+
+
+1- example of string builder is String builder 
+2- Sring buffer
+3- another greate example of builder pattern in java8. the java.util.Calender.builder 
