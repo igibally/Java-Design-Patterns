@@ -1,0 +1,14 @@
+2- prototype pattern
+1- we have complex object that is costly to create , to create more instance of such class we use an existing instance of our prototype
+2- prototype will allow us to make a copies of exiting object and save us having to recreates objects from scratch
+------------------------------------------------------------------------------------------------------------------------------
+1- we start by create a class which will be a prototype
+2- class should must implement Clone-able  interface
+3- class Should declare CloneNotSupportedException in throws clause to give subClasses
+4- chance to decide on whether to support cloning
+-------------------------------------------------------------------------------------------
+purpose of that object is to create copy of the existing object 
+
+1- prototype are  useful when you have a large objects where majority of state is unchanged between instances and you can easily identify the state.
+2- prototype registry is a class where in you can register various prototypes 
+3- which other code can access to clone out instances, this solves the issue getting acess to initial state
